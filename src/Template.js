@@ -77,7 +77,12 @@ Jaml.Template.prototype = {
     "ul", "ol", "li", 
     "dl", "dt", "dd",
     "h1", "h2", "h3", "h4", "h5", "h6", "h7",
-    "form", "fieldset", "input", "label"
+    "strong", "em", "b", "i", "abbr",
+    "blockquote", "pre",
+    "form", "fieldset", "input", "label", "textarea", "select", "option", "button",
+    // HTML5
+    "article", "section", "header", "footer", "aside",
+    "menu", "canvas", "time", "figure", "figcaption"
   ]
 };
 
